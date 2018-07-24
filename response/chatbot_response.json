@@ -1,0 +1,23 @@
+{
+        "ApprovalPolicy": {  "entities": ["approver"],
+		     "response": "The <approver> can approve capital transactions upto <amount> million.",
+		     "default": "Approval limit not defined for input data."
+		
+	},
+	"InvoiceStatus": {		
+			"entities": [ "invoice"	],
+			"response": "Invoice status : <status>. Invoice amount: <amount>",
+			"default": "The Invoice is not available"
+		
+	},"InvoiceSubProcess": { 
+                        "entities": [ "GPE" ],
+			"response": "Sure, the email address to submit invoice is <email>",
+  		        "default": "Invoice submission contact details not available for input data."
+		
+	},"Rushpayment": {
+			"entities": [],
+			"response": "Please find the process for Rush payment."
+		
+	},
+	"default": "Sorry, but I do not understand."
+}

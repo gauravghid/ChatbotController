@@ -1,0 +1,25 @@
+<head>
+    <title>Amex Chatbot</title>
+  <style>
+    body {
+      font-size: 22;
+      font-weight: bold;
+      color: #777777;
+      text-align: center
+    }
+    
+  </style>
+</head>
+<body bgcolor="#E6E6FA">   
+{% if response %}
+    <ul>
+    {{ response }}
+    </ul>
+{% else %}
+    <p>No response are available.</p>
+{% endif %}
+
+</body>
+
+
+</html>

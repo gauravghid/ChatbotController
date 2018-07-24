@@ -1,0 +1,32 @@
+<head>
+    <title>Amex Chatbot</title>
+    <style>
+    h1 {
+      font-size: 22;
+      font-weight: bold;
+      color: #777777;
+      text-align: left
+    }
+    
+  </style>
+</head>
+<body bgcolor="#E6E6FA">
+    
+     {% if response %}
+   <br> 
+   <h1>
+    {{ response }}
+    </h1>
+
+   {% endif %}
+    
+    <form method="post">
+    <br><br>
+    <b>Type here:<b>
+    <input type="text" name="text" id="text" >
+    <input type="submit" value="OK" name="submit" style = "font-size: 18; font-weight: bold; color: #777777;">
+</form>
+</body>
+
+
+</html>
